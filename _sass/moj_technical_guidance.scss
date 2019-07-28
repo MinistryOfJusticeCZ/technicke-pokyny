@@ -1,0 +1,21 @@
+img.img-medium {
+  width:450px;
+}
+
+.header {
+  background: #fff;
+  color: $black;
+}
+
+.header__brand a:link, .header__brand a:visited {
+  color: $black;
+}
+
+.header__brand a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid $black;
+}
+
+.header.header--full-width {
+  border-bottom: 2px solid $grey-2;
+}
