@@ -4,30 +4,29 @@ expires: 2018-03-15
 ---
 # Požadavky na uživatelský výzkum
 
-Dokument, který vysvětluje požadavky na výzkum, cíle výzkumu a proč je výzkum požadován.
+Jedná se o dokument, který vysvětluje požadavky na výzkum, cíle výzkumu a proč je výzkum požadován.
 
-Dodavatel doporučí nejvhodnější způsoby, jak práci udělat a jak naplní cíle výzkumu.
+Dodavatel doporučí nejvhodnější způsoby, jak práci udělá a jak naplní cíle výzkumu.
 
 ## Co by měl dokument obsahovat
-Dokument obsahuje následující informace:
 
-**Background**  – obsahuje background úřadu, který chce výzkum vést, jaké výzkumy byly vedeny v minulosti (nebo jsou vedeny nyní).
+**Background**  – obsahuje background úřadu, který chce výzkum vést, a dále jaké výzkumy byly vedeny v minulosti (nebo jsou vedeny nyní).
 
-**Cíle byznysu** - obsahuje odůvodnění jaké cíle byznysu výzkum adresuje. Toto je důležité, protože to vysvětluje, proč je výzkum požaduje.
+**Cíle byznysu** - obsahuje odůvodnění, jaké cíle byznysu chce úřad výzkumem naplnit. Tato část je důležitá, protože vysvětluje, proč je výzkum požadován.
 
-**Cíle výzkumu** - cíle výzkumu nastiňují, co se výzkumem snaží úřad docílit.
+**Cíle výzkumu** - cíle výzkumu nastiňují, čeho se snaží úřad výzkumem docílit.
 
-**Cílená skupina/účastníci** - indentifikace s kým chce úřad, aby se mluvilo (ve smyslu uživatele/uživatelských skupin), a na koho z cílových uživatelů se zaměřit. Je běžné, že se uvádí důležité demografické údaje, a kde, geograficky, se bude výzkum dělat.
+**Cílená skupina/účastníci** - určení s kým (ve smyslu uživatele/uživatelských skupin) úřad chce, aby se mluvilo, a na koho se z cílových uživatelů zaměřit. Běžně se uvádějí podstatně demografické údaje a kde se bude, geograficky, výzkum veden.
 
-**Preferovaný přístup/Metodika** - je doporučeno, aby dodavatel zvážil cíle výzkumu, a sám doporučil nejvhodnější metodiku. V případě in-house výzkumného týmu, je běžné, aby tento tým poskytl představu, jak by se měl výzkum vést.
+**Preferovaný přístup/Metodika** - doporučuje se, aby sám dodavatel zvážil cíle výzkumu, a pak následně doporučil nejvhodnější metodiku. V případě in-house výzkumného týmu je běžné, že tento tým poskytuje představu, jak by se výzkum měl vést.
 
-**Cena** - tato část stanovuje možný budget pro výzkum. Je doporučeno, aby se úřád zeptal možných dodavatelů na cenu práce. Úřad poté může vybrat, co nejvíc splňuje jeho potřeby.
+**Cena** - tato část stanovuje možný budget pro výzkum. Doporučuje se, aby se úřád zeptal možných dodavatelů na cenu práce. Poté si může úřad vybrat toho dodavatele, který nejvíc splní jeho potřeby.
 
-**Dodání/předání** - nastínění, jak bude výzkum dodávan/předáván, například, prezentace, workshop a tak dále.
+**Dodání/předání** - nástin, jak bude výzkum dodávan/předáván, například, prezentace, workshop a tak dále.
 
-**Časy** - specifikace, kdy bude výzkum dodán/předán.
+**Časy** - specifikování, kdy bude výzkum dodán/předán.
 
-**Projektový tým** - specifikace, kdo je v projektovém týmu a jejich kontaktní údaje.
+**Projektový tým** - specifikování, kdo tvoří projektový tým a jejich kontaktní údaje.
 
-## Příklad
+## Příklad v angličtině
 [IDA research brief (PDF, 177KB)](https://webarchive.nationalarchives.gov.uk/20150518103153/https://www.gov.uk/service-manual/assets/documents/IDAQualBrief.pdf)

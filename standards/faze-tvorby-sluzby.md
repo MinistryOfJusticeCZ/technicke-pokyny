@@ -4,68 +4,68 @@ category: Tvorba služby
 # Fáze při tvorbě nové služby
 
 ## Discovery fáze
-Zjistěte, co uživatelé potřebují, co měřit a jaká jsou omezení. Tato fáze je především o průzkumu problému a jeho kontextu.
+Zjistěte, co uživatelé potřebují, co měřit a jaké jsou omezení. Tato fáze je především o průzkumu problému a jeho kontextu.
 
-Před samotným budováním služby, je potřeba si vytvořit obraz toho, co daná služba je, její kontext. To znamená, spoustu uživatelského výzkumu, důkladná analýza vnitřních politik a předpisů, zákonů a potřeb byznysu, workshopy a rozhovory. To vše pomůže stanovit, co je pro danou službu úspěch a jaká jsou úspěchu kritéria.
+Před samotným budováním služby, je potřeba vytvořit si obraz toho, co daná služba je, její kontext. To znamená, dělání spousty uživatelského výzkumu, důkladné analýzy vnitřních politik a předpisů, zákonů a potřeb byznysu, workshopů a rozhovorů. To vše vám pomůže stanovit, co bude znamenat, že je služba úspěch a jaká budou kritéria pro tento úspěch.
 
 ### Cíle discovery fáze
-Discovery fáze poskytuje high-level pochopení pro potřeby uživatelů, pro to jak současná služba vypadá a cit pro to, čím se budou prvotní prototypy zabívat.
+Discovery fáze poskytuje high-level představu o potřebách uživatelů, o tom jak současná služba vypadá a ideu, čím se budou prvotní prototypy zabývat.
 
-Je potřeba myslet na uživatele používající asistenční technologie. Na začátku, potřebujete pochopit, jaká část uživatelů bude potřebovat podporu pro jejich asistenční technologie.
+Už v tété je potřeba myslet na uživatele používající asistenční technologie. Potřebujete pochopit, jaká část uživatelů, používajících asistenční technologie, bude potřebovat podporu.
 
-High-level byznys kontext začne dávat smysl, a můžete tak začít se stanovením KPIs.
+High-level kontext nové služby začne dávat smysl s ohledem na byznys. Můžete tak začít se stanovením KPIs.
 
-Zároveň získáte větší pochopení pro legacy rozhraní a infrastrukturu, se kterou se budete potýkat, a jaké existující procesy bude potřeba vyměnit nebo je vyřadit.
+Zároveň v této fázi získáte informace o legacy rozhraních a infrastruktuře, se kterou se budete potýkat. Dále zjistíte, jaké už existující procesy bude potřeba vyměnit nebo je vyřadit.
 
 Tyto informace lze získat skrz:
 
 - workshopy
 - jednoduché mock-upy
-- papírových prototypech
+- papírové prototypy
 - hromadu diagramů na whiteboardu
 
 ### Požadavky na tým
-Bude potřeba malý tým, skládající se ze stakeholderů a vytipovaných důležitých členů týmu, společně s věcným garantem.
+Bude potřeba malý tým, skládajícího se ze stakeholderů a vytipovaných členů důležitých pro tým společně s věcným garantem.
 
 ### Doba trvání discovery fáze
-Tato fáze by neměla trvat déle než 4 až 8 týdnů. Během posledního týdne se sestavuje obecný scope projektu a dává se dohromady počáteční seznam user stories (tak zvaný backlog). Řikáme tomu "počátek". Na konci této fáze by mělo být rozhodnutí, zda pokračovat do alpha fáze.
+Tato fáze by neměla trvat déle než 4 až 8 týdnů. Během posledního týdne se sestavuje obecný scope projektu a dává se dohromady počáteční seznam user stories (takzvaný backlog). Na konci této fáze je rozhodnutí, zda vůbec pokračovat do alpha fáze.
 
 ### Výstupy
 Discovery fáze za sebou zanechá:
 
-- prioritizovaný seznam potřeb uživatelů
-- prioritizovaný seznam user stories (story cards) pro projektový tým
+- oprioritizovaný seznam potřeb uživatelů
+- oprioritizovaný seznam user stories (story cards) pro projektový tým
 - povědomí, kdo tvoří tým a co se musí udělat, aby se projekt dokončil
 - schopnost vytvořit plán pro alpha fázi
-- rozhodnutí o postoupení do další fáze
-- možná nějaké náčrty prototypů
-- možná nějaké uživatelské persony
-- seznam stakeholderů a jejich vstupy o jiných existujících službách
-- povědomí o existujících službách, včetně těch neprovozovaných úřadem
+- rozhodnutí o pokračování do další fáze
+- nějaké případné náčrty prototypů
+- nějaké případné uživatelské persony
+- seznam stakeholderů a jejich vstupy o jiných už existujících službách
+- povědomí o existujících službách, včetně těch které úřad neprovozuje
 - povědomí, kolik uživatelů využívajících asistenční technologie bude potřebovat pomoc, a jaké jsou jejich potřeby
 
 ## Alpha fáze
-Budování prototypů, testování s uživateli a na základě toho, zjišťovat fakta. Při návrhu služby je nemožné vše předpokládat předem. Každý projekt má spoustu výzev, a v alpha fázi začínáte pro ně hledat řešení. Tato fáze je především o tom, zjistit, co funguje nejlépe.
+Budování prototypů, testování s uživateli a na základě toho, zjišťování fakt. Při návrhu služby není možné vše předpokládat předem. Každý projekt má svá úskalí. V alpha fázi pro ně začínáte hledat řešení. Tato fáze je především o tom, zjistit, co funguje nejlépe.
 
-Budete muset do týmu přibrat více vývojářů a designérů, kteří vám pomohou s budováním a testováním prototypů a případných řešení pro potřeby uživatelů.
+Do týmu budete muset přibrat více vývojářů a designérů, kteří vám pomohou s budováním a testováním prototypů případných řešení, které by naplnily potřeby uživatelů.
 
-Na konci alpha fáze byste měli mít jasnou přestavu, co znamená a co je potřeba pro budování bety. Celá fáze by neměla trvat déle než 6 až 8 týdnů.
+Na konci alpha fáze byste měli mít jasnou přestavu, co znamená beta a co je potřeba pro její budování. Celá fáze by neměla trvat déle než 6 až 8 týdnů.
 
 ### Cíle alpha fáze
-Cílem je vybudování fungujícího prototypu. Ten bude využit stakeholdery a uzavřenou skupinou uživatelů k tomu, aby se:
+Cílem je vybudování fungujícího prototypu. Ten bude stakeholdery a vybranou skupinou uživatelů využit k tomu, aby se:
 
-- získalo větší povědomí a porozumnění službě
-- testovaly přístupů k designu
-- testovaly některé technologie
+- získalo větší povědomí a porozumění službě
+- otestovaly přístupy k designu
+- otestovaly některé technologie (pro jejich možné použití při budování)
 - začal formovat tým
-- získal vzájemné porozumnění službě na úrovni kódu a integrací
-- pochopilo, co a kdo bude potřebovat pro dodání bety
+- získalo porozumění službě na úrovni kódu a integrací
+- pochopilo, co a kdo bude potřeba pro dodání bety
 
-Pokračujte v budování a analyzování výzkumu zjištěných potřeb uživatelů. Zapojte velkou část stakeholderů ze soukromého, dobrovolnického a jiných částí veřejného sektoru a dělejte série workshopů s těmito stakeholdery.
+Pokračuje se v budování a analyzování výzkumu pro zjištění potřeb uživatelů. Zapojte velkou část stakeholderů ze soukromého, dobrovolnického a jiné části veřejného sektoru a dělejte s nimi workshopy.
 
-Following demonstration of your alpha, you may choose to discard the code and start fresh in the beta. If, however, your code is effective you may continue to iterate against your prototype.
+Na základě ukázky alphy, můžete kód pro betu zahodit a začít znovu. Pokud je však efektivní, pokračujte v jeho iteraci.
 
-Vytvořte možnosti pro podporu uživatelů využívajících asistenční technologie. S vytvořením těchto možností vám pomůže pokračování a analyzování výzkumu potřeb uživatelů. Přiveďte expertízu z organizací, které pracují s ldmi, co jsou offline a se samotnými uživateli. Dělejte workshopy.
+Vytvořte možnosti, jak budete podporovat uživatele využívající asistenční technologie. S vytvořením těchto možností vám pomůže pokračování a analyzování výzkumu. Spolupracujte s organizacemi, které s lidmi, co nemají přístup k on-line službám pracují.
 
 ### Co by mělo být v alphě
 Alpha nepotřebuje být kompletní, end-to-end transakce. Snažíte se ukázat jen tolik, aby uživatelé pochopili, o čem služba je.
@@ -82,23 +82,21 @@ Pokud ne, zjistěte víc a tvořte další prototypy.
 Alpha fáze je další relativně krátká fáze. Snažte se ji limitovat na ±2 měsíce, které běží v týdenních sprintech.
 
 ### Požadavky na tým
-V této fázi je potřeba relativně malý core tým, který bude schopen rychle iterovat řešení. Bude se pravděpodobně rozšiřovat a růst ve chvílích potřeby různých specializací.
+V této fázi je potřeba relativně malý core tým, který bude schopen vytvářená řešení rychle iterovat. Bude se pravděpodobně rozšiřovat a růst ve chvílích, kdy bude třeba různé jiné specializace.
 
-Core tým je mix stakeholderů, a tvůrců (designérů a vývojářů), zvláště těch seznámených s uživatelským výzkumem. Bude veden XXX.
+Core tým je mix stakeholderů a tvůrců (designérů a vývojářů), zvláště těch seznámených s uživatelským výzkumem. Bude veden ?věcným garantem?.
 
 ### Výstupy
 Výstupy alpha fáze jsou:
 
 - high-level story karty
 - plán pro betu a způsob řízení live služby (méně detailní)
-- fungující základní systém, který poskytuje limitované funkcionality, které mohou být ukázany několika uživatelům
+- fungující základní systém, který poskytuje limitované funkcionality, ale přesto může být ukázan několika uživatelům
 - získání povědomí o legacy systémech, které je potřeba nahradit, povýšit nebo na které je potřeba se napojit
 - nefunkční požadavky
 - rozhodnutí, zda pokračovat do beta fáze
 - finální analýza výzkumu uživatelských potřeb
-- možnosti pro podporu uživatelů využívající asistenční technologie
-
-Následující část uvádí ideální alpha fázi.
+- možnosti podpory uživatelů využívajících asistenční technologie
 
 ## Ideální alpha fáze
 Ukázka, jak může alpha fáze vypadat a jak ji provést.
@@ -117,12 +115,12 @@ Je primárně definována dvěma aktivitami:
 ### Příprava
 #### Identifikace cílů
 
-Před plánováním alpha fáze, musí tým vědět, jaké jsou cíle alphy.
+Před plánováním alpha fáze musí tým vědět, jaké jsou cíle alphy.
 
 Například, některé z cílů mohou být:
 
-- snaha ospravedlnit, že se současná služba dá nahradit
-- důkaz, že se může služba na papírech nahradit službou digitální
+- snaha ospravedlnit to, že se současná služba dá nahradit
+- důkaz, že služba na papírech se může nahradit službou digitální
 - tvorba nové digitální služby
 
 Tyto cíle je potřeba komunikovat. To může vést k doplnění dalších dodatečných cílů.
@@ -131,7 +129,7 @@ Tyto cíle je potřeba komunikovat. To může vést k doplnění dalších dodat
 
 Důvodem, proč dělat alpha fázi, je brzká identifikace rizik.
 
-To znamená, že by měla identifikovat největší rizika projektu a těmi se zabývat a pochopit, co znamenají.
+To znamená, že by měla identifikovat největší rizika projektu a těmi se zabývat a pochopit, co pro projekt znamenají.
 
 V projektech veřejné správy tyto rizika spadají do 3 hlavních kategorií:
 
@@ -156,7 +154,7 @@ Rizika spojená s byznys procesem zahrnují:
 Technická rizika jsou zpravidla o integraci na současné systémy. Například:
 
 - jaký druh připojení bude potřeba
-- existují podmínky pro hosting, jako vysoké zabezpečení
+- existují podmínky pro hosting, jako je zabezpečení
 
 V alpha fázi se pomocí prototypování spíše zaměřte na rizika spojená s designem/návrhem a ty spojená s byznys procesem.
 
@@ -168,44 +166,44 @@ V alpha fázi se pomocí prototypování spíše zaměřte na rizika spojená s 
 
 ## Beta fáze
 
-Byly otestovány řešení pro dané potřeby uživatelů a zjistili jste, co to znamená vybudovat a spravovat služby. V této fáze vytvoříte end-to-end prototyp, veřejně ho otestujete a připravíte se ho spustit. Tato fáze je především o budování a vylepšování té nejlepší možnosti.
+Byly otestovány řešení pro dané potřeby uživatelů a zjistili jste, co znamená vybudovat a spravovat službu. V této fáze vytvoříte end-to-end prototyp, veřejně ho otestujete a připravíte se na jeho spuštění. Tato fáze je především o budování a vylepšování té nejlepší možnosti.
 
 ### Cíle beta fáze
 
-Cílem této fáze je vybudovat plně funkční prototyp, který můžete otestovat s uživateli. Průběžně ho vylepšujete, dokud není připraven přejít do fáze live, tím nahradit nebo se napojit na existující služby.
+Cílem této fáze je vybudovat plně funkční prototyp, který můžete otestovat s uživateli. Průběžně ho vylepšujete, dokud není připraven přejít do fáze live, a tím nahradit nebo se napojit na existující služby.
 
-V této chvíli vyřešíte jakékoliv technické nebo procesní problémy, bude vaše služba schválena a naplánována na spuštění (live). Zároveň poprvé narazíte na technická kritéria ve Standardu digitální služby.
+V této chvíli vyřešíte jakékoliv technické nebo procesní problémy. Pak bude vaše služba schválena a naplánována na spuštění (live). Zároveň poprvé narazíte na technická kritéria ve Standardu digitální služby.
 
-Měli byste rapidně vydávat updaty a vylepšení, a měřit tak jejich dopady na KPI, které jste si stanovili v discovery a alpha fázi.
+Měli byste rapidně vydávat updaty a vylepšení, a měřit jejich dopady na KPI, které jste si stanovili v discovery a alpha fázi.
 
-Zároveň budete testovat podporu pro uživatele vyžadující asistenci.
+Zároveň budete testovat podporu pro uživatele používající asistenční technologie.
 
 ### Jak publikovat betu
 
-Existují dva způsoby, jak řešit beta fázy. V obou případech se musí jednat o plnohodnotnou verzi end-to-end prototypu služby.
+Existují dva způsoby, jak řešit fázi beta. V obou případech se musí jednat o plnohodnotnou verzi end-to-end prototypu služby.
 
 #### Uzavřená (private) beta
 
-Jedná se o betu, která není přístupná všem - buďto omezení územní, nebo přístup na pozvání a tak dál. Můžete tuto možnost zvolit, protože:
+Jedná se o betu, která není přístupná všem - buďto je omezení územní, nebo je přístup na pozvání a tak dál. Můžete tuto možnost zvolit, jelikož:
 
 - máte větší kontrolu nad demografií uživatelů, kteří betu budou používat
 - vám to umožňuje omezit počet transakcí, které se na betě udělají
-- můžete začít zmála, získat zpětnou vazbu předtím, než dáte betu k dispozici širšímu spektru uživatelů
+- můžete začít zmála a získat zpětnou vazbu předtím, než dáte betu k dispozici širšímu spektru uživatelů
 
 #### Otevřená (public) beta
 
 Do public bety může přistoupit každý. Může existovat společně s již existující verzí služby. Můžete:
 
-- použít něco jako AB testování ke stanovení cest (funnels)
+- použít něco jako AB testování ke stanovení cest (Google analytics funnels)
 - pozvat lidi k použití bety s rozdílnými call-to-actions
 
 ### Doba trvání beta fáze
 Přesná doba trvání bety závisí na povaze projektu, ale dobře obsazenému týmu by nemělo trvat vytvořit betu během několika měsíců.
 
-Po vydání bety strávíte nějaký čas iterováním služby, dokud není připravena na fázi live.
+Po vydání bety strávíte nějaký čas iterováním služby do chvíle, než bude připravena na fázi live.
 
 ### Požadavky na tým
-Za základě zjištění z prototypu/ů v alpha fázi, víte, jak velký tým potřebujete k vytvoření služby. Ten bude vést jeden, vhodně zkušený věcný garant. Tým bude obsahovat designéry, vývojáře, analytiky, jak bude třeba.
+Za základě zjištění z prototypu/ů v alpha fázi, víte, jak velký tým potřebujete k vytvoření služby. Ten bude vést jeden, vhodně zkušený ?věcný garant?. Tým bude obsahovat designéry, vývojáře, analytiky tak, jak bude třeba.
 
 ### Výstupy
 Na konci beta fáze, budete mít:
@@ -214,8 +212,8 @@ Na konci beta fáze, budete mít:
 - kolekci s oprioritizovanou prací (backlog)
 - plán pro testování s uživateli
 - přesné metriky a způsoby pro měření stanovených KPIs
-- otestovánu podporu služby pro uživatelé potřebující asistovanou pomoc
-- fungující systém, který může být skutečně využit koncovými uživateli
+- otestovanou podporu služby pro uživatelé potřebující asistovanou pomoc
+- fungující systém, který může být skutečně využíván koncovými uživateli
 
 ## Live fáze
 
