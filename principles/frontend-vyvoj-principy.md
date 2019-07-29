@@ -45,19 +45,17 @@ Nejste uživatel. Můžete dělat pouze předpoklady, jak bude stránka uživate
 Můžete být seznámeni, nebo vás mohou zajímat, opravdu spousty technologií. Například, SASS, Gulp, CoffeeScript, TypeScript, EcmaScript 6, Polymer, a další. Pamatujte však na to, že váš kód by měl být udržitelný dlouho po vašem odchodu. Musíte si být jisti, že technologie, kterou chcete použít, bude i nadále mít aktivní komunitu: budou ji vyvojáři znát nebo o ní budou slyšet, bude existovat dokumentace, budou nové verze zpětně kompatibilní, a tak dál. jQuery, Grunt/Gulp a SASS jsou dnes velice rozšířenými, a jsou považovány za vhodné.
 
 ## 11. Pozor na single-page apps
-Je obtížné navrhnout single-page aplikace (SPA) tak, aby byly přístupné, nezavislé na prohlížeči, umožnily progresivní zlepšování, a jsou search-engine friendly. It’s very difficult to design single-page apps (SPAs) that are accessible,
-browser-independent, offer the benefit of progressive enhancement, and are
-search-engine friendly. Proto jsou ve státní správě vzácné. Předtím než se rozhodnete pro SPA, musíte si být jisti, že všechni uživatelé mohou službu využít, nehledě na jejich zařízení. Nejčastěji budou SPA implementovány pro interní služby, kde je potřeba nejnižší možné použití technologie na jiné úrovni.
+Je obtížné navrhnout single-page aplikace (SPA) tak, aby byly přístupné, nezavislé na prohlížeči, umožnily progresivní zlepšování, a jsou search-engine friendly. Proto jsou ve státní správě vzácné. Předtím než se rozhodnete pro SPA, musíte si být jisti, že všichni uživatelé mohou službu využít, nehledě na jejich zařízení. Nejčastěji budou SPA implementovány pro interní služby, kde je potřeba nejnižší možné použití technologie na jiné úrovni.
 
 ## 12. Pište unit testy
 Zpravidla aplikace nebudou obsahovat "pure" JS kód. Používejte proto unit testy, pouze pokud JS funkce nepřímo modifikují DOM.
 
 ## 13. Pište funkční testy
-to znamená, testy, které replikují cestu uživatele službou (user journey). Zahrňte všechny možné cesty, ne jen tu hezkou cestu.
+To znamená, testy, které replikují cestu uživatele službou (user journey). Zahrňte všechny možné cesty, ne jen tu hezkou cestu.
 
-- Mělo by jich být hodně a měly by proběhnout při každé změně kódu
-- Měly by být vyjádřeny v čitelné formě (Například, [Prison visits](https://github.com/ministryofjustice/prison-visits/blob/master/spec/features/unexpected_journey_spec.rb#L56))
-- Nekontrolujte pouze obsah stránky, ale zkontrolujte i vypočítané CSS
+- mělo by jich být hodně a měly by proběhnout při každé změně kódu
+- měly by být vyjádřeny v čitelné formě (Například, [Prison visits](https://github.com/ministryofjustice/prison-visits/blob/master/spec/features/unexpected_journey_spec.rb#L56))
+- nekontrolujte pouze obsah stránky, ale i vypočítané CSS
 
 BDD (za použití [cucumber](https://cucumber.io/) nebo jakoukoliv jinou human-readable formu psaní testů) bude fungovat, pokud má pro to tým tu správnou workflow. Pokud nemáte někoho (ideálně věcného garanta), který by tyto testy psal a kontroloval, zda procházejí, budete ztrácet čas překládáním testů v kódů, namísto psaní těchto testů rovnou.
 
@@ -66,4 +64,4 @@ Při psaní kódu kontrolujte a debuggujete výsledky ve svém oblíbeném prohl
 pro vyzkoušení několika prohlížečů naráz a použijte virtuální stroje pro starší prohlížeče (například, [modern.ie](https://dev.windows.com/en-us/microsoft-edge/tools/vms/))
 
 ## 15. Implementujte SEO a sémantický markup
-Mimo interní stránky a ty na .servis.justice.cz (které by měly blokovat web spidery), byste měli stránky dělat tak, aby je roboti snadno pochopili. Service standards vám sice dají základy SEO, ale někdy je dobré dělat víc, například, použít sémantický markup, aby mohly search enginy nalétz věci jako otevírací dobu soudů, adresu. [Schema.org](https://schema.org/) v současné chvíli nabírá na popularitě, a davá smysl prouzkomat to blíže.
+Mimo interní stránky a ty na .servis.justice.cz (které by měly blokovat web spidery), byste měli stránky dělat tak, aby je roboti snadno pochopili. Service standards vám sice dají základy SEO, ale někdy je dobré dělat víc, například, použít sémantický markup, aby mohly search enginy nalézt věci jako otevírací dobu soudů, adresu. [Schema.org](https://schema.org/) v současné chvíli nabírá na popularitě, a davá smysl prouzkomat to blíže.

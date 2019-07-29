@@ -18,9 +18,9 @@ Abychom byli spravedliví, musíme být:
 To znamená, aby naše služby:
 
   -  byly optimalizovány tak, aby fungovaly bez ohledu na zařízení nebo kanál (on-line, off-line)
-  -  byly snadno k nalezní, snadno k použití a snadné k použití zas a znovu
-  -  dávaly uživatelům informace, které potřebují, kdy je potřebují
-  -  jasně vysvětlovaly, co se v procesu zahrnuto
+  -  byly snadno k naleešní, snadno k použití a snadné k použití zas a znovu
+  -  dávaly uživatelům informace, které potřebují a kdy je potřebují
+  -  jasně vysvětlovaly, co je v procesu zahrnuto
   -  ujišťovaly uživatele, kde v procesu jsou, a co očekávat jako další
 
 ## Řádnost
@@ -34,8 +34,8 @@ Abychom byli řádní, musíme posoudit:
 To znamená, aby naše služby:
 
   -  nezatěžovaly uživatele ptaním se na informace, které nejsou třeba k dokončení úkonu
-  -  seskupovaly informace tak, aby to dávalo smysl uživateli
-  -  uživateli vysvětlovaly možnosti a volby tak, aby udělali úkony potřebné v jejich osobní situaci
+  -  seskupovaly informace tak, aby to uživateli dávalo smysl
+  -  vysvětlovaly uživateli možnosti a volby tak, aby sami uživatelé udělali úkony potřebné v jejich osobní situaci
   -  byly co nejvíce účinné, aby uživateli šetřily čas a peníze
 
 ## Přístupnost
