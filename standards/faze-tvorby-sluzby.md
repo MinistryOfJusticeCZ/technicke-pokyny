@@ -158,15 +158,66 @@ Technická rizika jsou zpravidla o integraci na současné systémy. Například
 
 V alpha fázi se pomocí prototypování spíše zaměřte na rizika spojená s designem/návrhem a ty spojená s byznys procesem.
 
-#### Identifikace a tvorba týmu
+#### Vytipování členů a tvorba týmu
+
+Pro dobře vyvážený tým jsou zapotřebí následující schopnosti:
+
+- design (služby, UX, obsahu podle potřeby)
+- uživatelský výzkum (testování s uživateli)
+- vývoj prototypu
+- integrace služby
+- delivery management
+- byznys analýza
+
+Tým bude pravděpodobně větší. Bude pracovat agilně, dělat interace buď týdenní nebo dvoutýdenní. 
+
+Zásadní schopnosti, které tým musí mít jsou:
+
+- vybudování wireframu nebo prototypu cesty uživatele službou během jednoho týdne
+- hostování věcí na internetu
+- vedení uživatelského výzkumu
+- analýza nálezů
+
+#### Identifikování procesu
+
+Každá alpha bude jiná z důvodu různých rizik a cílů.
+
+Přesto pro dobře vedené alphy existují společné aspeky.
+
+Nabírání znalostí, které je důležitou součástí alpha fáze, chceme, co možná nejvíce maximalizovat. Proto očekáváme, že alphy budou krátké,  a to v délce okolo 8 týdnů.
+
+Očekáváme, že se alphy skládájí z:
+
+- prvních kroků
+- serií iterací nad designem, vývojem a testováním
+- buď:
+    - zrušení alphy
+    - přechod z alphy do bety
+
+### Uskutečňování alpha fáze
+
+#### První kroky
 
 #### Iterace
 
+
 #### Ukončování alpha fáze
+
+Přidaná hodnota alpha fáze je ta, že může týmu, co možná nejdříve pomoc s odhalením těch největších rizik spojených s betou.
+
+Je důléžité mít na paměti, že ty nejhodnotnější cíle v alpha fázi jsou vybudování kontextu pro problém, poznat potenciální uživatele a pochopit hlavní obavy stakeholderů. Obecně se především snažíme tvořit týmy, ne aplikace. Pokud není kód vytvořený v alpha fázi dostatečně kvalitní, je v pořádku ho zahodit a začít znovu. Například, tým se může rozhodnout nepoužít test-driven development. Pamatujte, že primárním cílem alphy je učit se. Nemusíme být připraveni investovat do vytváření systémů rovnou vhodných na produkci. Zválště ve chvíli, kdy se tým dozví, že neřeší ten správný problém.
+
+Dalším výstupem alphy může být brzké rozhodnutí, zda pokračovat do beta fáze. Toto ovšem znamená úspěšnou alphu, jelikož se podařilo redukovat čas a peníze. V tomto případě se můžete vrátit zpět k výstupům z discovery fáze a začít novou alphu se zaměřením na něco jiného, nebo se vrátit úplně a spustit jinou discovery fázi.
+
+Pro postoupení do beta fáze je potřeba sepsat Požadavek na postoupení do beta fáze. Tento požadavek má smysl psát už při alpha fázi, jelikož chceme zachovat spád.
+
+Lidé za projektem a senior management by měl sedět u posledního dema alphy. Při demo se ukazuje, co jsme alphou dosáhli a realizovatelnost bety.
+
+Pokud vše proběhne v pořádku a služba dostane zelenou, je pro beta fázi ještě potřeba vyprodukovat backlog s epic stories, případně mít finální retrospektivu.
 
 ## Beta fáze
 
-Byly otestovány řešení pro dané potřeby uživatelů a zjistili jste, co znamená vybudovat a spravovat službu. V této fáze vytvoříte end-to-end prototyp, veřejně ho otestujete a připravíte se na jeho spuštění. Tato fáze je především o budování a vylepšování té nejlepší možnosti.
+Byly otestovány řešení pro dané potřeby uživatelů a zjistili jste, co znamená službu vybudovat a spravovat. V této fáze vytvoříte end-to-end prototyp, veřejně ho otestujete a připravíte se na jeho spuštění. Tato fáze je především o budování a vylepšování té nejlepší možnosti.
 
 ### Cíle beta fáze
 
@@ -194,7 +245,7 @@ Jedná se o betu, která není přístupná všem - buďto je omezení územní,
 
 Do public bety může přistoupit každý. Může existovat společně s již existující verzí služby. Můžete:
 
-- použít něco jako AB testování ke stanovení cest (Google analytics funnels)
+- použít něco jako A/B testování ke stanovení cest (Google analytics funnels)
 - pozvat lidi k použití bety s rozdílnými call-to-actions
 
 ### Doba trvání beta fáze
@@ -217,6 +268,26 @@ Na konci beta fáze, budete mít:
 
 ## Live fáze
 
+Vybudovali jste službu, která splňuje potřeby uživatelů. Po veřejné betě jste otestovali řešení, které se může využít. Tato fáze je především o běhu a průběžném vylepšování.
+
+### Spuštění
+Služba by teď měla splňovat všechny bezpečnostní a performance standardy. Pro přesné měření KPIs, identifikovaných při budování služby, jste nakonfigurovali analytics. Zároveň jste naplánovali přechod nebo integraci s jinými existujícími službami.
+
+Hlavně, a především, jste splnili potřeby uživatelů, které jste identifikovali v discovery, alpha a beta fázích.
+
+### Fáze po spuštění
+Tímto ale proces nekončí. Na základě zpětné vazby od uživatelů, analýzy (Google Analytics) a dalších výzkumů by měla být služba průběžně vylepšována.
+
+Existuje operativní podpora (rozvoj) - jak technická, tak zaměřená na uživatele - a byly implementovány pro-aktivní metody pro monitorování služby. To vám pomůže v:
+
+- monitorování performance systému
+- optimalizaci kódu
+- zajištění, že je služba zabezpečená
+
+Ve chvíli, kdy služba běží, bude potřeba rychle dělat nějaká vylepšení, výzkumy, iterace, releasy. Pro tyto případy je potřeba celý proces (discovery, alpha, beta a live) opakovat.
+
+### Požadavky na tým
+Při budování služby jste identifikovali role důležité pro běh služby (věcný garant, tým technické podpory). Jak začne iterace a vylepšování různých částí služby, bude se i tým rozšiřovat, případně bude potřeba dodavatele a jiných specialistů.
 
 ## Retirement fáze
 
