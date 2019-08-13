@@ -5,6 +5,31 @@ expires: 2018-05-31
 
 # Pull requesty
 
+Jako tvůrce budu pull requesty (PRs):
+
+- udržovat PRs malé
+
+Jako kontrolor (reviewer) PRs budu:
+
+- dělat vše proto, abych je zkontroloval, co možná nejdříve
+- schvalovat, jakmile jsou lepší než současný kód
+
+Při všech změnách praktikujeme na MSp kontrolu kódu (code review), jelikož to:
+
+- zlepšuje kvalitu kódu
+
+## Velikost
+
+## Kdy review dělat
+
+## Kdo by měl review dělat
+
+## Techniky pro review
+
+## Jak dlouho by měl být PR otevřený
+
+Pull requesty by měly být malé a časté. Pokud jsou otevřeny déle než 2-3 dny, tak je pravděpodobně něco špatně. 
+
 ## Nástroje pro usnadnění
 
 ### Zanedbané PRs
@@ -19,7 +44,7 @@ Naše standardní šablona pro PR:
 **Před vytvořením pull requestu se ujistěte, že:**
 
 - [ ] commit messages jsou smysluplné a splňují pokyny pro dobrou commit message
-- [ ] README a další dokumentace byla aktualizována / přídána (pokud bylo třeba)
+- [ ] README a další dokumentace byla aktualizována / přidána (pokud bylo třeba)
 - [ ] testy byly aktualizovány / nové testy byly přidány (pokud bylo třeba)
 
 Tento řádek a vše nad ním odstraňte a vyplňte následující sekce:
@@ -29,13 +54,13 @@ Tento řádek a vše nad ním odstraňte a vyplňte následující sekce:
 
 
 
-### Zmeňte popis ###
+### Zmeňte tento popis ###
 <!-- Uveďte, co měníte, jestli proběhly testy, a tak dále -->
 
 
 **Obsahuje PR breaking change?** (zaškrtněte jedno pole pomocí "x")
 
-\``` (při zkopíruj-a-vložení odstraňte tento komentář a zpětné lomítko)
+\``` (při zkopírování-a-vložení odstraňte tento komentář a zpětné lomítko)
 [ ] Ano
 [ ] Ne
 \```

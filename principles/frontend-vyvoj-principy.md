@@ -18,7 +18,7 @@ Stránka musí splňovat úroveň AA [Web Content Accessibility Guidelines 2.0](
 - [Automatizovné testování přístupnosti v Rails za pomoci capybara-accessible](https://content.pivotal.io/blog/automated-accessibility-testing-in-rails-with-capybara-accessible)
 
 
-## 3. Udělejte kód jednodušší, aby se dal kopírovat nebo přeložit
+## 3. Udělejte kód jednoduchý natolik, aby se dal kopírovat nebo přeložit
 Veškerý text v aplikaci, který uvidí uživatel, by měl být na tom samém místě v kódu, typicky v šablonách. Tím je zároveň myšlen i obsah zobrazený na základě podmínky nebo chybové zprávy. Dále se ujistěte, že lze službu přeložit do jiného jazyka.
 
 ## 4. Podporujte co možná nejvíce prohlížečů

@@ -200,6 +200,42 @@ Očekáváme, že se alphy skládájí z:
 
 #### Iterace
 
+Očekáváme to, že vytvoříme spousty prototypů k otestování hypotéz, a prototypy následně v co nejkratším čase otestujeme. Z toho důvodu, abychom se věci dozvědeli, změnili a znovu otestovali. Tyto kolečka zpětných vazeb jsou nesmírně důležité.
+
+V takto rané fázi projektu je vzácné, že se najde ta správná cesta nebo design. Proto chceme co nejčastěji budovat a testovat prototypy. 
+
+Proces iterace by se měl chovat přesně jako agile proces zkombinovaný s UX a uživatelským výzkumem
+
+Doporučujeme následující formát:
+
+- Den 1
+    - Retrospektiva (1 hodina)
+    - Plánování iterace (2 hodiny)
+    - Začátek iterace
+- Den 2
+    - Uživatelský výzkum na předešlých iteracích prototypů
+    - Analýza výsledků testů
+- Den 5
+    - Demo
+
+Tato struktura se může trochu měnit, ale je podstatné dělat uživatelský výzkum v začátcích iterace.
+
+Práce v tomto tepmu vyústí v:
+
+- uživatelský výzkum v iteraci 1
+- dokončené user stories v iteraci 2
+- další výzkum nad aktualizovanými prototypy v iteraci 3
+
+Předpokládáme docela high definition prototypy. Ty pak mohou mít backend, který by napodobil integrace služby.
+
+Můžete začít s low fidelity prototypy (jako papír), pokud potřebujete rychleji iterovat. Takto můžete testovat vícero cest a umožnit rychlejší iterování nad výzkumem a vývojem prototypů.
+
+Očekáváme, že touto dobou už uděláte demonstraci cesty službou. Toto se bude zároveň dít na konci každé iterace, kde se též řekne, co se tým dozvěděl a co plánuje dělat dál.
+
+Snažte se nesoustředit iterace na pondělky nebo pátky, protože:
+
+- první a poslední den iterace je nejdůležitějším pro celý tým
+- pondělky/pátky mají nejvíce absencí
 
 #### Ukončování alpha fáze
 
@@ -289,5 +325,31 @@ Ve chvíli, kdy služba běží, bude potřeba rychle dělat nějaká vylepšen�
 ### Požadavky na tým
 Při budování služby jste identifikovali role důležité pro běh služby (věcný garant, tým technické podpory). Jak začne iterace a vylepšování různých částí služby, bude se i tým rozšiřovat, případně bude potřeba dodavatele a jiných specialistů.
 
-## Retirement fáze
+## Retirement fáze (řizené ukončení služby)
 
+I ty nejlepší služby mohou být eventuálně ukončené (retired). Například změna zákona může znamenat, že služba už nebude dále nabízena, nebo dojde k jejímu nahrazení jinou službou splňující potřeby uživatelů.
+
+Ať už je důvod jakýkoliv, ukončení služby digitální služby by mělo být provedeno se stejnou lehkostí, jako bylo vytvoření služby. To znamená, soustředění se na potřeby uživatelů.
+
+### Potřeby uživatelů
+
+Služba byla vybudována proto, aby splňovala potřeby uživatelů. Z toho důvodu je důležité vědět, jak budou tyto potřeby nadále uspokojovány ve chvíli, kdy bude služba ukončena. To znamená, zda tyto potřeby nebudou již existovat, nejsou nadále uspokojovány úřadem, nebo budou v budoucnu součástí jiné služby.
+
+Pokud tyto služby nebudou nadále uspokojovány úřadem, ale soukromým nebo neziskovým sektorem, je pak důležité, aby na to byly tyto organizace dostatečně připraveny.
+
+### Další fáze
+#### Oznámení dané věci uživatelům předem
+
+Pro většinu uživatelů, kteří začínají a končí svou cestu na justice.cz, je nejdůležitější věcí zajistit, aby byla justice.cz aktualizována. Budou ovšem existovat uživatelé, kteří budou ke službě přistupovat rovnou. Buď přes e-mail, oblíbené záložky nebo zapamatováním si URL adresy. Proto je důležité je na změnu připravit a jasně sdělit, co pro ně bude ukončení služby znamenat.
+
+Informace o tom co se děje za změnu, proč se děje, co budou muset udělat, a co se stane s jejich daty, by měly být snadno dostupné.
+
+Uživatelé, kteří přistupují k službě přes API budou potřebovat čas k aktualizaci svých softwarů. Právě k uživatelům API byste se měli ozvat co možná nejdříve, jelikož budou potřebovat spoustu času pro jejich změny.
+
+#### Plán na přesměrování provozu
+
+Někteří uživatelé se budou i nadále snažit zpřístupnit (teď již ukončenou) službu. Pro přesměrování těchto dotazů k nové, náležité službě by měl existovat plán, nebo dejte jasně najevo, že služba byla navždy ukončena.
+
+Pokud obsah stránky nebudete přesouvat, zvažte jeho archivaci.
+
+### Data

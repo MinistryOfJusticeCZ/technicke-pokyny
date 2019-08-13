@@ -41,14 +41,42 @@ Můžete:
 
 **Proč je to důležité**
 
-Dobré automatizovné testy umožňují týmu postupovat vpřed, jelikož ví, že nic nerozbili.
+Dobré automatizovné testy umožňují týmu postupovat vpřed, jelikož ví, že nic nerozbil.
 
 **Jak to může vypadat**
 
+Typy testů, počet testů a co testují se může měnit na základě systému a/nebo záviset na použité technologii.
 
 **Kontrola**
 
 Můžete:
 
+  -  někomu automatizované testy v vašem repositáři nebo repositářích ukázat?
+  -  ukázat, že vaše testy (skoro) vždy projdou?
+  -  vysvětlit, co se stane, když se vaše testy selžou?
+  -  vysvětlit, kde testy spouštíte a ukázat výsledek předešlých testů, co jste spustili?
+  -  testy spustit teď hned?
 
-### 3. Jakýkoliv deployment aplikace je automatizovaný
+
+### 3. Jakékoliv nasazení (deployment) aplikace je automatizovaný
+
+Do prostředí je manualní nasazení riskantní a více náchylné na chyby. Zvláště ve chvílích, kdy je nasazení kritické. Automatizované nasazení většinu těchto rizik odstraňuje.
+
+**Jak to může vypadat**
+
+Nasazování do jakéhokoliv spravovaného nebo kontrolovaného prostředí jsou automatizována pomocí nástrojů jako GitLab nebo Jenkins. Spravované prostředí jako: produkce, pre-prod, QA, nebo systémové integrační testování. Automatizované nasazení je spuštěno podle kroků z předchozí build pipeliny, nebou je supštěno manuálně. Pokud budete interagovat manuálně, dělejte tak co možná nejméně. Ptejte se například pouze na: 
+
+  -  číslo buildu
+  -  cílové prostředí
+
+Všechny jiné environment-specific informace musí přijít z daného místa jako repositář nebo Jenkins build job.
+
+**Kontrola**
+
+
+Můžete:
+
+  -  někomu ukázat, jak nasazejte do vašeho prostředí?
+  -  sebevědomě říct, jak dlouho nasazení zabere?
+  -  popsat, jaké nástroje používáte pro automatizované nasazování?
+  -  ukázat, kde jsou vaše deployment skripty zálohovány?

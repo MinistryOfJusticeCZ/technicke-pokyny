@@ -5,16 +5,16 @@ expires: 2019-03-31
 
 # Principy pro vývoj frontend komponent
 
-Co dělá komponentu dobrou?
-
 Komponenta je balíček, který se skládá ze šablony, stylu, chování a dokumentace. V případě, že se chystáte vytvořit novou komponentu, ujistěte se, že splňujete tyto principy.
+
+Co dělá komponentu dobrou?
 
 ## Dobrá komponenta je:
 
 * přístupná
-* dokumentována
+* zdokumentována
 * izolována
-* testována
+* otestována
 * přeložitelná do jiného jazyka
 
 ### Komponenta je přístupná, pokud:
@@ -25,7 +25,7 @@ Komponenta je balíček, který se skládá ze šablony, stylu, chování a doku
 * je responzivní
 * je [progresivně zlepšována](https://en.wikipedia.org/wiki/Progressive_enhancement)
 
-### Komponenta je dokumentována, pokud je:
+### Komponenta je zdokumentována, pokud je:
 
 * její význam jasný
 * znázorněna tak, jak bude ve skutečnosti vypadat
@@ -38,7 +38,7 @@ Komponenta je balíček, který se skládá ze šablony, stylu, chování a doku
 * její styly a skripty nemají žádný efekt na stránku nebo jiné komponenty
 * není závislá na externích selektorech, které by přiřazovaly styly svým potomkům
 
-### Komponenta je testována, pokud má:
+### Komponenta je otestována, pokud má:
 
 * unit testy
 * testy pro vizuální regresi
@@ -46,10 +46,10 @@ Komponenta je balíček, který se skládá ze šablony, stylu, chování a doku
 
 ## Architektura dobré komponenty:
 
-* poskytuje konzistentní API komponenty aplikacím
+* API komponenty je poskytováno konzistentně
 * definuje konvence, kterých se komponenty drží
 * používá lintování komponent pro konzistetní stylizování kódování
 * umožňuje komponenty snadno budovat, přesouvat a mazat
-* umožňuje komponenty snadno poskládat a dávat dohromady bez dalšího kódu, který by je dohromady slepil
+* umožňuje komponenty snadno poskládat a dávat dohromady bez dalšího kódu, který by je dohromady slepoval
 * umožňuje komponenty najít
-* skrývá interní implementaci komponenty aplikacím
+* interní implementace komponenty je aplikacím skryta
