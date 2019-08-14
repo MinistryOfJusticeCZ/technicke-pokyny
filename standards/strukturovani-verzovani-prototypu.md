@@ -20,7 +20,7 @@ Pojmenovávejte verze Heroku stejným jménem, novým verzím jen přidávejte p
 
 Verzování pomáhá udržovat přehled o minulých verzí prototypu.
 
-Pomocí git tagů, můžete udělat snapshoty prototypů, které jste vytvořily. Zároveň ale můžete udržovat minulé verze bez tohoto tagování. Ve chvíli, kdy vytvoříte nový prototyp, vytvořte novou Heroku appku s číslem verze (msp-project-v2). Poté vypněte automatické aktualizace z GitHubu.
+Pomocí git tagů, můžete udělat snapshoty prototypů, které jste vytvořily. Přesto ale můžete udržovat minulé verze i bez tohoto tagování. Ve chvíli, kdy vytvoříte nový prototyp, vytvořte novou Heroku appku s číslem verze (msp-project-v2). Poté vypněte automatické aktualizace z GitHubu.
 
 Heroku umožňuje mít až 100 appek (pokud přidáte platební inforamce - nebudete platit poplatek).
 
@@ -40,10 +40,10 @@ Můžete převést, jak GitHub repositáře, tak Heroku appkyYou can transfer bo
 
 ## Best practice pro výzkum
 
-Výzkumnící chtějí vědět, jakými iteracemi prototyp prošel. K tomu může pomoc používání "changelogu" k uchovávání důležitých informací zjištěných z výzkumu.
+Výzkumnící chtějí vědět, jakými iteracemi prototyp prošel. K tomu může pomoc používání "changelogu", jako nástroj k uchovávání důležitých informací zjištěných z výzkumu.
 
 Zajistěte, aby výzkumníci mohli prototypy jednoduše procházet. Jasně značte verze, co se změnilo a proč.
 
 ## Pokračovat ve čtení
 
-Další informace můžete najít na na stránkách GOV.UK o [Dělání prototypů](https://www.gov.uk/service-manual/design/making-prototypes).
+Další informace o [Dělání prototypů](https://www.gov.uk/service-manual/design/making-prototypes) můžete najít na na stránkách GOV.UK.
