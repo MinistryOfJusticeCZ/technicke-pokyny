@@ -4,7 +4,7 @@ expires: 2018-03-15
 ---
 # Vyhodnocování a příklady k Standardu pro tvorbu služeb
 
-[Standard na Google Sheets](https://docs.google.com/spreadsheets/d/1zOePDF3pe7ngJe-_ddr71HcPNxNX7F5ZnSA0iNzrR8c/edit?usp=sharing)
+Pracovní verze na [Standard na Google Sheets](https://docs.google.com/spreadsheets/d/1zOePDF3pe7ngJe-_ddr71HcPNxNX7F5ZnSA0iNzrR8c/edit?usp=sharing)
 
 ## Kdy jsou projekty vyhodnocovány
 
@@ -46,26 +46,26 @@ Na konci vyhodnocování, dostanete zprávu s výsledkem, zda vaše služba spl�
 
 #### Výstupy
 
-[ ] Plán a popis výzkumu
-[ ] Rozpis discovery sprintů
-[ ] AS-IS a TO-BE mapy
-[ ] Excel s potřebami uživatelů/user stories/epiky (prioritizovaný)
-[ ] Persony a/nebo profily uživatelů
-[ ] Discovery report (prezentace)
-[ ] Případně nějaké náčrty prototypů
-[ ] Kód je otevřený a znovupoužitelný (existence Git repositáře)
-[ ] Identifikace nejdůležitějších metrik (KPI a performance indikátory)
+- [ ] Plán a popis výzkumu
+- [ ] Rozpis discovery sprintů
+- [ ] AS-IS a TO-BE mapy
+- [ ] Excel s potřebami uživatelů/user stories/epiky (prioritizovaný)
+- [ ] Persony a/nebo profily uživatelů
+- [ ] Discovery report (prezentace)
+- [ ] Případně nějaké náčrty prototypů
+- [ ] Kód je otevřený a znovupoužitelný (existence Git repositáře)
+- [ ] Identifikace nejdůležitějších metrik (KPI a performance indikátory)
 
 #### Dodavatel ukázal a prokázal
 
-[ ] Znalost kdo jsou uživatelé a jaký problém za ně služba vyřeší
-[ ] Reprezentativní vzorek uživatelů (i s těmi co využívají kompenzační pomůcky) 
-[ ] Vysvětlit jednoduše význam služby
-[ ] Jakým způsobem budou vyhodnocovat úspěch/satisfakci uživatelů se službou
-[ ] Plán pro podporu uživatelů s kompenzačními pomůckami
-[ ] Znalost jakým kanálem teď uživatelé se službou komunikují a množství transakcí, které kanálem prochází
-[ ] Vysvětlit jaké design patterny, toolkity a style guides bude využívat
-[ ] Plán jak bude vypadat další zapojení a výzkum uživatelů (i těch využívajících kompenzační pomůcky)
+- [ ] Znalost kdo jsou uživatelé a jaký problém za ně služba vyřeší
+- [ ] Reprezentativní vzorek uživatelů (i s těmi co využívají kompenzační pomůcky) 
+- [ ] Vysvětlit jednoduše význam služby
+- [ ] Jakým způsobem budou vyhodnocovat úspěch/satisfakci uživatelů se službou
+- [ ] Plán pro podporu uživatelů s kompenzačními pomůckami
+- [ ] Znalost jakým kanálem teď uživatelé se službou komunikují a množství transakcí, které kanálem prochází
+- [ ] Vysvětlit jaké design patterny, toolkity a style guides bude využívat
+- [ ] Plán jak bude vypadat další zapojení a výzkum uživatelů (i těch využívajících kompenzační pomůcky)
 
 ## Použitelnost a přístupnost
 

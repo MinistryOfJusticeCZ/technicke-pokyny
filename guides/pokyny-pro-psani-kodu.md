@@ -50,7 +50,7 @@ Měli byste [nakonfigurovat autoprefixer](https://github.com/postcss/autoprefixe
 
 Sass nestování byste se měli vyhnout, kde je to jen možné.
 
-Nadměrné používání nestování může vést ke složitému hledání selectorů a schovávat komplikované CSS, které by mělo být zjednodušené.
+Nadměrné používání nestování může vést ke složitému hledání selectorů a k schovávání komplikovaného CSS, které by mělo být zjednodušené.
 
 Výjimky tvoří pseudo selectory a JavaScript enabled třídy.
 
@@ -75,7 +75,7 @@ Výjimky tvoří pseudo selectory a JavaScript enabled třídy.
 
 Projděte si [seznam podporovaných prohlížečů Ministerstvem spravedlnosti](https://github.com/MinistryOfJusticeCZ/tym-dodavatel/blob/master/pristupnost/podporovane-prohlizece.md). Jedná se o prohlížeče, na kterých je povinné, aby služba běžela.
 
-Ať už máte jakoukoli úroveň podpory prohlížeče, HTML by mělo být napsáno tímto způsobem že starší prohlížeče uvidí příslušnou fallback nebo varovnou zprávu. Například, některé prohlížeče nepodporují prvek `<video>`, proto byste se měli ujistit, že je zahrnutá nějaké kontextuální informace (v tomto příkladu prvek `<p>`):
+Ať už máte jakoukoli úroveň podpory prohlížeče, HTML by mělo být napsáno tímto způsobem, to znamená, starší prohlížeče uvidí příslušnou fallback nebo varovnou zprávu. Například, některé prohlížeče nepodporují prvek `<video>`, proto byste se měli ujistit, že je zahrnutá nějaké kontextuální informace (v tomto příkladu prvek `<p>`):
 
 ```html
 <video width="320" height="240" controls>
@@ -91,7 +91,7 @@ Před přidáním jakéhokoli CSS nebo JavaScriptu by vaše stránka měla fungo
 
 ### Struktura dokumentu
 
-Sémanticky strukturujte stránku pomocí HTML5. Aby mohly starší asistivní (komponzační) technologie mapovat sekce stránky správně, použijte ARIA role.
+Stránku sémanticky strukturujte pomocí HTML5. Aby mohly starší asistivní (komponzační) technologie mapovat sekce stránky správně, použijte ARIA role.
 
 Léonie Watson vysvětluje [proč použití ARIA landmark rolí přináší pro uživatele odčítačky obrazovky nejlepší prožitek](http://tink.uk/screen-readers-aria-roles-html5-support/).
 
@@ -99,8 +99,7 @@ Tento dokument nepředepisuje, zda se v atributech použijí jednoduché nebo dv
 
 #### Hlavička (Header)
 
-`<header role="banner">` should be used to contain your home link, branding, search,
-and any global navigation you may have.
+`<header role="banner">` by měl být použit k tomu, aby obsahoval odkaz na domovskou stránku, branding, vyhledávač, a další možnou globální navigaci.
 
 #### Hlavní obsah
 
@@ -162,7 +161,7 @@ Na stránce je pouze jeden `<h1>` prvek.
 
 Vyhněte se kurzívě. Tučné písmo lze použít střídmě, ale může způsobit, že velké bloky textu budou špatně čitelné.
 
-Sémanticky, slovo vyjádřená důrazem mohou být označena `<em>`, zatímco slova vyjadřující smysl nebo naléhavost nebo varování by měla být označena znakem `<strong>`.
+Sémanticky, slova vyjádřená důrazem mohou být označena `<em>`, zatímco slova vyjadřující smysl nebo naléhavost nebo varování by měla být označena znakem `<strong>`.
 
 Teoreticky, by se odečítačky obrazovkyby mohli pro tuto značku zvolit jiný tón hlasu, ačkoli v současné době to není. Prohlížeče je tradičně vykreslují kurzívou a tučně, možná budete muset přepsat `em`, abyste kurzívu nepoužili.
 
@@ -172,9 +171,9 @@ Zpravidla se vyhněte používání `<i>` nebo `<b>`, jelikož jsou užitečné 
 
 Přečtěte si [sekci k obrázkům v GOV.UK Design System](https://design-system.service.gov.uk/styles/images/).
 
-#### Tlačítka vs Odkazy
+#### Tlačítka vs.s Odkazy
 
-Odkazy by měly být použity pro navigaci na jinou stránku. K odesílání formulářů by měla být použita tlačítka nebo interakce na stránce (například rozbalení prvku). Vyhýbejte se prázdným odkazů (`<a href="#">`).
+Odkazy by měly být použity pro navigaci na jinou stránku. K odesílání formulářů by měla být použita tlačítka nebo interakce na stránce (například rozbalení prvku, akordeón). Vyhýbejte se prázdným odkazů (`<a href="#">`).
 
 Odkazy by ve výchozím nastavení neměly otevírat nové karty nebo okna, ale pokud se tak uživatelé rozhodnou (pomocí klávesové zkratky nebo kontextové menu klepnutím pravým tlačítkem), respektujte jejich volbu.
 

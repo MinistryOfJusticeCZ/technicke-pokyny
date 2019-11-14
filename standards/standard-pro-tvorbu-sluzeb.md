@@ -4,7 +4,7 @@ expires: 2018-03-15
 ---
 # Standard pro tvorbu služeb
 
-[Standard na Google Sheets](https://docs.google.com/spreadsheets/d/1zOePDF3pe7ngJe-_ddr71HcPNxNX7F5ZnSA0iNzrR8c/edit?usp=sharing)
+Pracovní verze na [Standard na Google Sheets](https://docs.google.com/spreadsheets/d/1zOePDF3pe7ngJe-_ddr71HcPNxNX7F5ZnSA0iNzrR8c/edit?usp=sharing)
 
 Standard pro tvorbu služeb je soubor 18 kritérií, která musí splňovat všechny digitální služby vyvinuté pro potřeby uživatelů služeb Ministerstva spravedlnosti.
 

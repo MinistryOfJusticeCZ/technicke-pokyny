@@ -15,9 +15,9 @@ Například:
 
 |Priorita|Příklad|Akce
 |---|---|---|
-|Vysoká|Správné pozicování stylů|Dejste styly na začátek a skripty na konec stránky|
+|Vysoká|Správné pozicování stylů|Dejte styly na začátek a skripty na konec stránky|
 ||Zmenšete počet HTTP požadavků|Pro zmenšení velikost a doby načtení minimalizujte ikony, CSS a JavaScript soubory [HTTP/1.1 only]|
-||Komprimujte statické zdroje|Pro kompresi CSS a JavaScript kódu použijte [minifikaci][] a [Gzip][]|
+||Komprimujte statické assety|Pro kompresi CSS a JavaScript kódu použijte [minifikaci][] a [Gzip][]|
 ||Nastavte spravné Hlavičky|Nastavte spravné [Cache-Control][] a [ETag][] hlavičky na assetech pro optimální caching|
 |Střední|Hledejte prázdné `src` image atributy|Vyhněte se použivání prázdných `src` image atributům, jelikož některé prohlížeče jim přesto pošlou požadavek|
 ||Redukujte DNS lookupy|Použijte méně domén třetích stran, aby došlo k redukování počtu DNS lookupů per stránku|
