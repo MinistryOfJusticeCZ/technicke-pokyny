@@ -1,9 +1,9 @@
 ---
-category: Nástroje
+category: Git
 expires: 2018-05-31
 ---
 
-# Pull requesty
+# Pull requesty - NEPOUŽÍVAT
 
 Jako tvůrce budu pull requesty (PRs):
 

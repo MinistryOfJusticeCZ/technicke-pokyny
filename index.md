@@ -1,19 +1,9 @@
-# MSp pokyny pro dodavatele
+# Pokyny pro dodavatele
 
 Tato stránka dokumentuje některé z technických rozhodnutí, které
-[Ministerstvo spravedlnosti](https://www.justice.cz)
- (MSp) udělalo.
+[Ministerstvo spravedlnosti](https://www.justice.cz) udělalo a které po svých dodavatelích vyžaduje.
 
-Všechny služby musí splňovat [Standard pro digital by default služby]({{ '/standards/standard-pro-digitalbydefault-sluzby' | relative_url }}), proti kterému budou vyhodnocovány.
-
-## Principy
-
-{% assign principle_groups = site.pages
-  | where: "principle", true %}
-
-{% for principle in principle_groups %}
-- [{{ principle.title }}]({{ principle.url | relative_url }})
-{% endfor %}
+Všechny služby musí splňovat [Standard pro tvorbu služeb]({{ '/standards/standard-pro-tvorbu-sluzeb' | relative_url }}), proti kterému budou vyhodnocovány.
 
 ## Standardy
 
@@ -32,6 +22,16 @@ Všechny služby musí splňovat [Standard pro digital by default služby]({{ '/
 - [{{ standard.title }}]({{ standard.url | relative_url }})
 {% endfor %}
 {% endfor %}
+
+## Principy
+
+{% assign principle_groups = site.pages
+  | where: "principle", true %}
+
+{% for principle in principle_groups %}
+- [{{ principle.title }}]({{ principle.url | relative_url }})
+{% endfor %}
+
 
 ## Návody
 

@@ -1,5 +1,5 @@
 ---
-category: Design služby
+category: Tvorba služby
 ---
 
 # Strukturování a verzování prototypů

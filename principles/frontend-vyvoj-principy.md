@@ -9,7 +9,7 @@ Seznam několika principů, které vývojáři při implentaci frontendu služby
 
 Tyto principy jsou rozšířením pro [Principy vývoje MSp]({{ '/principles/vyvoj-principy' | relative_url }}).
 
-## 1. Řiďte se Standardem digitální služby
+## 1. Řiďte se Standardem pro tvorbu služby
 
 ## 2. Udělejte vaši službu přístupnou
 Stránka musí splňovat úroveň AA [Web Content Accessibility Guidelines 2.0](https://www.w3.org/WAI/intro/wcag). Zároveň byste měli, co nejčastěji zkoušet asistenční technologie. I přesto všechno, nebudete mít kompletní přehled problémů, které služba může obsahovat. Další co vám může pomoc je, jako součást continuous integration, automatizované testovaní přístupnosti.

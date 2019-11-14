@@ -19,7 +19,6 @@ Co dělá komponentu dobrou?
 
 ### Komponenta je přístupná, pokud:
 
-* splňuje [sadu definovaných kritérií pro splnění přístupnosti](accessibility_acceptance_criteria.md)
 * je [WCAG AA compliant](https://www.w3.org/WAI/WCAG20/quickref/)
 * má automatizované testování přístupnosti s dobrým pokrytím kvůli regresím
 * je responzivní
