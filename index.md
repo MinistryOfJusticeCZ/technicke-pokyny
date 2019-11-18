@@ -32,6 +32,23 @@ Všechny služby musí splňovat [Standard pro tvorbu služeb]({{ '/standards/st
 - [{{ principle.title }}]({{ principle.url | relative_url }})
 {% endfor %}
 
+## Design patterns
+
+{% assign designpatterns = site.pages
+  | where: "pattern", true
+  | group_by: "category" %}
+
+{% for pattern_group in designpatterns %}
+{% if pattern_group.name != "" %}
+### {{ pattern_group.name }}
+{% else %}
+### Obecné patterny
+{% endif %}
+
+{% for pattern in pattern_group.items %}
+- [{{ pattern.title }}]({{ pattern.url | relative_url }})
+{% endfor %}
+{% endfor %}
 
 ## Návody
 

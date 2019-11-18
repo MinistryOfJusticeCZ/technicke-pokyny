@@ -18,3 +18,8 @@ defaults:
       path: "principles"
     values:
       principle: true
+  -
+    scope:
+      path: "designpatterns"
+    values:
+      pattern: true

@@ -171,7 +171,7 @@ Zpravidla se vyhněte používání `<i>` nebo `<b>`, jelikož jsou užitečné 
 
 Přečtěte si [sekci k obrázkům v GOV.UK Design System](https://design-system.service.gov.uk/styles/images/).
 
-#### Tlačítka vs.s Odkazy
+#### Tlačítka vs. Odkazy
 
 Odkazy by měly být použity pro navigaci na jinou stránku. K odesílání formulářů by měla být použita tlačítka nebo interakce na stránce (například rozbalení prvku, akordeón). Vyhýbejte se prázdným odkazů (`<a href="#">`).
 

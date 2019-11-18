@@ -63,13 +63,13 @@ Měli byste vytvářet stránky pomocí landmarků, abyste uživatelům umožnil
 
 ### Nevhodná struktura nadpisů
 
-Uživatelé odečítačky obrazovky se mohou spolehnout na správnou strukturu nadpisů na stránce, aby se jí mohli navigovat a porozumět jejímu obsahu. Název stránky by měl být uveden v prvku H1 a všechny ostatní nadpisy by se měly řídit logickým uspořádáním, např. Hl, H2, H3, ne Hl, H3, H2.
+Uživatelé odečítačky obrazovky se mohou spolehnout na správnou strukturu nadpisů na stránce, aby se jí mohli navigovat a porozumět jejímu obsahu. Název stránky by měl být uveden v prvku H1 a všechny ostatní nadpisy by se měly řídit logickým uspořádáním, např. H1, H2, H3, ne H1, H3, H2.
 
 ### Prvky formuláře nemají přiřazený label
 
-All form controls should have a label associated with them that describes what the form control should be used for. Placeholder text is not an acceptable alternative.
+Všechny ovládací prvky formulářů by měly mít k nim přiřazen label (popis), který popisuje, k čemu by se ovládací prvek formuláře měl použít. Zástupný text (placeholder) není přijatelnou alternativou.
 
-Labels should provide a short but clear explanation of a form control. Further detail can be provided using a separate element. This should also be associated with the form control by using an attribute such as aria-describedby.
+Labely by měly poskytnout krátké, ale jasné vysvětlení prvku formuláře. Další podrobnosti mohou být poskytnuty pomocí samostatného prvku. To by také mělo být spojeno s prvky formuláře pomocí atributu, jako je aria-describedby.
 
 ### Text odkazu je bez významu nebo je duplikovaný
 
@@ -99,4 +99,4 @@ Stránky, které poskytují uživateli detailní interakci, musí být vytvořen
 
 Nevidomí uživatelé nemohou pochopit obrázek bez smysluplného alternativního textu (alt text). Alt text by měl stručně vyjádřit záměr obrázku. Nemusí jej nutně úplně popsat.
 
-Například alt text „vřelý vánoční stůl“ může být užitečnější při zprostředkování záměru obrazu než „talíř s řízky, bramborami, nádivkou, omáčkou, bábovkou a mrkví“. Obrázek s prázdným alt textem je však lepší než obrázek bez atributu alt.
+Například alt text „vánoční stůl plný jídla“ může být užitečnější při zprostředkování záměru obrazu než „talíř s řízky, bramborami, nádivkou, omáčkou, bábovkou a mrkví“. Obrázek s prázdným alt textem je však lepší než obrázek bez atributu alt.
