@@ -8,7 +8,7 @@ category: Rozhodnutí pro komponenty
 
 Rozhraní s taby, stejně jako akordéony, umožňují uživatelům prohlížet dlouhý obsah po jedné sekci. Jasně označené taby představující jednotlivé sekce usnadňují uživatelům identifikaci a rozbalení toho obsahu, který se jich týká.
 
-Používejte taby, u nichž nejsou části předmětu příliš početné (celkem více než čtyři nebo pět tabů) a názvy tabů nejsou dlouhé. Obsah tabu by měl být soběstačný: Nenuťte uživatele, aby přepínali mezi tabami pro dokončení úkonů[^1]. Pokud je přítomno více než pět sekcí/názvů, nebo jsou-li názvy tabů dlouhé, použijte pattern [**Akordéony**](/akordeony.md).
+Používejte taby, u nichž nejsou části předmětu příliš početné (celkem více než čtyři nebo pět tabů) a názvy tabů nejsou dlouhé. Obsah tabu by měl být soběstačný: Nenuťte uživatele, aby přepínali mezi taby pro dokončení úkonů[^1]. Pokud je přítomno více než pět sekcí/názvů, nebo jsou-li názvy tabů dlouhé, použijte pattern [**Akordéony**](/akordeony.md).
 
 ### Odchýlení se od ARIA authoring practices
 Tato implementace tabů se ve svém chování liší od specifikace uvedené v ARIA Authoring Practices[^2]. Je to z důvodu, že chceme řešit problémy s použitelností, které byly nalezeny, jak v interním tak v externím výzkumu[^3] na ARIA tab rozhraní.
@@ -17,7 +17,7 @@ Tato implementace tabů se ve svém chování liší od specifikace uvedené v A
 
 ### Základní markup
 
-Tam, kde je možný server-side rendering a progresivní zlepšování, postupujte podle tohoto příkladu pro tvorbu tabů. Tam, kde je spuštěn JavaScript, bude tato tabulka obsahu (propojená na následující sekce obsahu) zlepšena přidělením ARIA atributu.
+Tam, kde je možný server-side rendering a progresivní zlepšování, postupujte podle tohoto příkladu pro tvorbu tabů. Tam, kde je spuštěn JavaScript, bude tato tabulka obsahu stránky (propojená na následující sekce obsahu) zlepšena přidělením ARIA atributu.
 
 ```html
 <div class="tabs">
@@ -50,9 +50,9 @@ Tam, kde je možný server-side rendering a progresivní zlepšování, postupuj
 #### Poznámky
 
 * **`<ul>`:** `<ul>` seskupuje odkazy na stejné stránce dohromady a výstup odečítačky obrazovky je pak vyjmenovává.
-* **odkazy:** Každý `href` odkazuje koresponduje s `id` sekce (`<section>`). To staví na standardním chování prohlížeče, to znamená, uživatel může navigovat sekce (`<section>`) bez toho, aby se spoléhal na JavaScript.
-* **`<section>`**: Některé odečítačky obrazovek umožňují uživatelům navigaci mezi `<section>` ('region') napřímo, pomocí zkratek. Přesto, doporučujeme, aby každá `<section>` byl také uvedena nadpisem, protože zkratky pro hledání nadpisů jsou dlouhodobějším způsobem pro navigaci.
-* **tabindex="-1":** Každá `<section>` bere `tabindex="-1"`. To nutí prohlížeče přesunout focus na cílený prvek při aktivaci odkaz na té samé stránce[^4].
+* **odkazy:** Každý `href` odkaz koresponduje s `id` sekce (`<section>`). Řešení staví na standardním chování prohlížeče, to znamená, uživatel může navigovat sekce (`<section>`) bez toho, aby se spoléhal na JavaScript.
+* **`<section>`**: Některé odečítačky obrazovek umožňují uživatelům navigaci mezi `<section>` ('region') napřímo, pomocí zkratek. Přesto, doporučujeme, aby každá `<section>` byla také uvedena nadpisem, protože zkratky pro hledání nadpisů jsou dlouhodobějším způsobem pro navigaci.
+* **tabindex="-1":** Každá `<section>` bere `tabindex="-1"`. To nutí prohlížeče přesunout focus na cílený prvek při aktivaci odkazu na té samé stránce[^4].
 
 ### Zlepšený markup
 
@@ -86,10 +86,10 @@ Tam, kde je možný server-side rendering a progresivní zlepšování, postupuj
 
 #### Poznámky
 
-* **`role="tablist"`, `role="tab"`, a `role="tabpanel"`:** Ve chvíli, kdy běží JavaScript, the tab interface acquires the requisite semantics to be communicated as a tab interface in assistive technology software.
-* **`role="presentation"`:** S `role="tablist"` a `role="tab"` in place, tabs are announced correctly as _"tabs"_ and enumerated. The list semantics is therefore redundant, and `role="presentation"` is used to suppress it[^5].
-* **`aria-labelledby`:** The tab panels (`<section>`s with `role="tabpanel"`) are labelled by their tabs, so that when a user focuses or enters them, they are assured of their identity and relationship to the interface as a whole. Most screen readers will announce something similar to _"tab panel, section 1"_ when the panel is focused or entered.
-* **`aria-selected="true"` a `hidden`:** The state attribute identifies the tab corresponding to the open/selected panel. All other panels are removed from display (and screen reader output) using the `hidden` property.
+* **`role="tablist"`, `role="tab"`, a `role="tabpanel"`:** Ve chvíli, kdy běží JavaScript, rozhraní tabu získává potřebnou sémantiku, která má být sdělena jako tab rozhraní v softwaru asistivních technologiích.
+* **`role="presentation"`:** S danými `role="tablist"` a `role="tab"` jsou taby ohlašovány správně jako _"tabs"_ a jsou vyčteny. Sémantika seznamu je pak redundantní, a `role="presentation"` je použita k jejímu potlačení[^5].
+* **`aria-labelledby`:** Tab panely (`<section>` s `role="tabpanel"`) jsou popsány (labelled) jejich taby, takže ve chvíli, kdy je uživatel zaměří nebo je otevře, dávájí smysl celému rozhraní jako celku. Když je tab panel zaměřen nebo otevřen, většina odečítaček obrazovky ohlásí něco podobného jako _"tab panel, sekce 1"_.
+* **`aria-selected="true"` a `hidden`:** Atribut stavu identifikuje tab korespondující otevřenému/vybranému panelu. Všechny ostatní panely jsou odstraněny (vizuálně a odečítačkám obrazovek) použitím vlastnosti `hidden`.
 
 ## Doporučený layout
 
@@ -103,7 +103,7 @@ Ve chvíli, kdy JavaScript neběží, taby se zobrazují jako odkazy v něčem, 
 }
 ```
 
-Pokud běží JavaScript, odkazy vypadají jako taby, a jsou zobrazeny vedle sebe. Kratší názvy jsou preferovány namísto wrapped textu, takže `white-space: nowrap` a `text-overflow: ellipsis` jsou aplikovány by default. Pamatujte, že tohle funguje pouze, pokud je použito `min-width: 0` flex potomkovi (tedy `<li>`).
+Pokud běží JavaScript, odkazy vypadají jako taby, a jsou zobrazeny vedle sebe. Kratší názvy jsou preferovány namísto zalomeného textu, takže `white-space: nowrap` a `text-overflow: ellipsis` jsou aplikovány by default. Pamatujte, že tohle funguje pouze, pokud je na flex potomkovi (tedy `<li>`) použito `min-width: 0`.
 
 ```css
 .tabs > ul li {
@@ -135,7 +135,7 @@ To však může snadno vést k nečitelným názvům (labelům) pro úzké viewp
 
 ### Mód Vysokého kontrastu
 
-Tam, kde je aktivní Mód Vysokého kontrastu (HCM) ve Windows, jsou odstraněny pozadí, které označují taby a panely. V souladu s tím jsou přidány další rámečky (borders). Ty jsou nastaveny jako `transparentní` a budou neviditelné, pokud nebude spuštěn Windows HCM.
+Tam, kde je aktivní Mód Vysokého kontrastu (HCM) ve Windows, jsou odstraněny pozadí, které označují taby a panely. Na základě toho jsou přidány další rámečky (borders). Ty jsou nastaveny jako `transparentní` a budou neviditelné, pokud nebude spuštěn Windows HCM.
 
 ```css
 .tabs > section {
@@ -143,7 +143,7 @@ Tam, kde je aktivní Mód Vysokého kontrastu (HCM) ve Windows, jsou odstraněny
 }
 ```
 
-Dále, je použit `@media` query detekující mód vysokého kontrastu[^7] pro vytvoření alternativní `aria-current` styl pro právě vybraný tab. Je napozicován `2px` dolů od své přirozené pozice. Tím se zakrývá čára mezi tabem a panelem, takže vypadají jako jedna.
+Dále, je použit `@media` query detekující mód vysokého kontrastu[^7] pro vytvoření alternativního `aria-current` stylu pro právě vybraný tab. Je napozicován `2px` dolů od své přirozené pozice. Tím se zakrývá čára mezi tabem a panelem, takže vypadají jako jedna.
 
 ```css
 @media (-ms-high-contrast: active) {
@@ -166,15 +166,15 @@ Ve chvíli, kdy JavaScript neběží, taby se zobrazují jako odkazy v něčem, 
 
 #### Výběru tabu
 
-Kliknutím myší nebo klepnutím na tab zobrazíte její odpovídající panel tabu (tab panel). Pro uživatele klávesnice jsou nevybrané taby zaměřitelné a lze je aktivovat klávesami <kbd>Enter</kbd> a <kbd>Space</kbd>.
+Kliknutím myší nebo klepnutím na tab zobrazíte jemu odpovídající panel tabu (tab panel). Pro uživatele klávesnice jsou nevybrané taby zaměřitelné a lze je aktivovat klávesami <kbd>Enter</kbd> a <kbd>Space</kbd>.
 
-Pro zachování chování odkazů na stejné stránce (na základě kterých jsou taby vytvořeny) a pro řešení problémů, které odečítačky obrazovek mají při změně z tabu do tab panelu, kliknutím na tab přesuňte focus na zobrazený tab panel. V odečítačkách obrazovek je tab panel identifikován na panel tabu, a název (label) tab panelu (půjčený z odpovídajícího tab pomocí `aria-labelledby`) je také ohlášen.
+Pro zachování chování odkazů na stejné stránce (na základě kterých jsou taby vytvořeny) a pro řešení problémů, které odečítačky obrazovek mají při změně z tabu do tab panelu, kliknutím na tab přesuňte focus na zobrazený tab panel. V odečítačkách obrazovek je tab panel identifikován jako tab panel, a název (label) tab panelu (půjčený z odpovídajícího tab pomocí `aria-labelledby`) je také ohlášen.
 
-Tab panel je teď počáteční bod pořadí focusu. Přesto tab panel není uživatelem zaměřitelný (bere `tabindex="-1"`, ne `tabindex="0"`), to znamená <kbd>Shift</kbd> + <kbd>Tab</kbd> přesune uživatele zpět na tab list. Chování "virtuální kurozoru"[^6] odečítaček obrazovek  není nijak potlačeno nebo přepsáno. Prvky (prvky s `tabindex="0"`) které jsou uživatelem zaměřitelné, ale nejsou interaktivní, jsou považovány jako porušení **WCA G2.1 2.4.3 Focus Order**[^8].
+Tab panel je teď počáteční bod pořadí focusu. Přesto tab panel není uživatelem zaměřitelný (bere `tabindex="-1"`, ne `tabindex="0"`), to znamená <kbd>Shift</kbd> + <kbd>Tab</kbd> přesune uživatele zpět na tab list. Chování "virtuální kurozoru"[^6] odečítaček obrazovek  není nijak potlačeno nebo přepsáno. Prvky (prvky s `tabindex="0"`) které jsou uživatelem zaměřitelné, ale nejsou interaktivní, jsou považovány jako porušení **WCAG 2.1 2.4.3 Focus Order**[^8].
 
 #### Podpora zpětného tlačítka
 
-Protože je rozhraní řízeno `hashchange` eventy vyvolanými kliknutím na prvky tab odkazu, je podporováno tlačítko Zpět. Stisknutím klávesy zpět (backspace) se dostanete na dříve otevřený tab, pokud tam byl.
+Protože je rozhraní řízeno `hashchange` eventy vyvolanými kliknutím na prvky tab odkazu, je podporováno tlačítko Zpět. Stisknutím klávesy zpět se dostanete na dříve otevřený tab, pokud tam byl.
 
 ```js
 window.addEventListener('hashchange', function (e) {
@@ -188,7 +188,7 @@ Kdykoliv se hash změní do něčeho, co _nekoresponduje_ s tabem, je první tab
 
 ### Načtení stránky
 
-Jak jsou taby vybrány, mají taby povoleno pokračovat v aktualizaci hashe (`hash`) dokumentu, což zachovává chování odkazů na stejné stránce. Při prvním načtení dokumentu, pokud hash URL odpovídá tab panelu, je tento panel standardně zobrazen. Pokud k adrese URL neexistuje žádná hashovací komponenta nebo hash neodpovídá `id` panelu tabu, zobrazí se první tab panel a vybere se první tab.
+Jak jsou taby vybrány, mají taby povoleno pokračovat v aktualizaci hashe (`hash`) dokumentu, kvůli zachování chování odkazů na stejné stránce. Při prvním načtení dokumentu, pokud hash URL odpovídá tab panelu, je tento panel standardně zobrazen. Pokud k adrese URL neexistuje žádná hashovací komponenta nebo hash neodpovídá `id` panelu tabu, zobrazí se první tab panel a vybere se první tab.
 
 Níže uvedený kód je snippetem takové implemetance:
 
