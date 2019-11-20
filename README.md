@@ -1,6 +1,6 @@
-# Technical guidance
+# Technické pokyny
 
-Jak budujeme a spravujeme služby na Ministerstvu spravedlnosti. Toto repo je inspirována, a půjčeno ze stránky [Technické pokyny GDS][gds-way].
+Jak budujeme a spravujeme služby na Ministerstvu spravedlnosti. Toto repo je inspirována, a půjčuje si ze stránky [Technické pokyny GDS][gds-way].
 
 Stránka je vytvořena za použití [Jekyllu][Jekyll], a hostována za použití [GitHub Pages][GitHub Pages]. Používá HTML, SCSS, JavaScript, a obrázky z [GDS's Tech Docs
 Template][tech-docs-template]. Stránka je přetvořena, aby fungovala s Jekyllem, namísto [Middlemana][Middleman].

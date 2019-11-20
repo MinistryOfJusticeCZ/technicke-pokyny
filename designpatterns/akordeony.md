@@ -2,7 +2,7 @@
 category: Rozhodnutí pro komponenty
 ---
 
-# Akordeón
+# Akordeóny
 
 ## Úvod
 
