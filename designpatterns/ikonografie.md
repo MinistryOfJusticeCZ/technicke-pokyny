@@ -18,7 +18,7 @@ Ikonky icon fontu namapované na zavedené znaky jsou stejně tak problematické
 
 ## Doporučený markup
 
-Ve všech případech by měl ikonky doprovázet viditelný nebo vizuálně skrytý textový popis. Samotná ikona musí mít atribut `focusable = "false"`, aby jej odstranila z focus pořadí (výchozí nastavení v některých verzích Internet Explorer a Edge[^2]). Zároveň by měla mít `aria-hidden = "true"`. Protože textový popis (v uvedeném příkladu _„Smazat“_) je dostačující, není identifikace grafiky SVG nezbytná. Neposkytujte alternativní text/popisy pro ikony, kde je text již k dispozici.
+Ve všech případech by měl ikonky doprovázet viditelný nebo vizuálně skrytý textový popis. Samotná ikona musí mít atribut `focusable="false"`, aby jej odstranila z focus pořadí (výchozí nastavení v některých verzích Internet Explorer a Edge[^2]). Zároveň by měla mít `aria-hidden="true"`. Protože textový popis (v uvedeném příkladu _„Smazat“_) je dostačující, není identifikace grafiky SVG nezbytná. Neposkytujte alternativní text/popisy pro ikony, kde je text již k dispozici.
 
 ```html
 <button>  

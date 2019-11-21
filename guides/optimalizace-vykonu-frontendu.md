@@ -16,19 +16,19 @@ Například:
 |Priorita|Příklad|Akce
 |---|---|---|
 |Vysoká|Správné pozicování stylů|Dejte styly na začátek a skripty na konec stránky|
-||Zmenšete počet HTTP požadavků|Pro zmenšení velikost a doby načtení minimalizujte ikony, CSS a JavaScript soubory [HTTP/1.1 only]|
+||Zmenšete počet HTTP požadavků|Pro zmenšení velikosti a doby načtení minimalizujte ikony, CSS a JavaScript soubory [HTTP/1.1 only]|
 ||Komprimujte statické assety|Pro kompresi CSS a JavaScript kódu použijte [minifikaci][] a [Gzip][]|
-||Nastavte spravné Hlavičky|Nastavte spravné [Cache-Control][] a [ETag][] hlavičky na assetech pro optimální caching|
+||Nastavte spravné Hlavičky|Pro optimální caching nastavte spravné [Cache-Control][] a [ETag][] hlavičky na assetech|
 |Střední|Hledejte prázdné `src` image atributy|Vyhněte se použivání prázdných `src` image atributům, jelikož některé prohlížeče jim přesto pošlou požadavek|
-||Redukujte DNS lookupy|Použijte méně domén třetích stran, aby došlo k redukování počtu DNS lookupů per stránku|
-||Maximalizujte paralelizaci|Servujte statické assety z různých subdomén, to znamená, že prohlížeče mohou stáhnout více assetů paralelně [HTTP/1.1 only]|
+||Redukujte DNS lookupy|Použijte co nejméně domén třetích stran, abyste tak redukovali počet DNS lookupů per stránku|
+||Maximalizujte paralelizaci|Servujte statické assety z různých subdomén; prohlížeče tak mohou stáhnout více assetů paralelně [HTTP/1.1 only]|
 ||Prozkoumejte [lazy loading][]|Pro stránky se spoustou obrázků načítejte pouzy ty, které jsou ve viewportu prohlížeče|
 ||Prozkoumejte dopad načítání vícero [@font-face][] assetů|Prozkoumejte @font-face assety, pokud řešíte problémy s [FOUT, FOIT a FOFT][]|
 |Nízká|Nastavte správně obrázky a sprity|Pro jednodušší parsování browseru, nastavte obrázky a sprity horizontálně|
 ||Redukujte velikost cookie|Protože každá cookie je posílána s každým HTTP požadavkem, zvažte použití cookie-free domény pro statické assety [HTTP/1.1 only]|
-||[AJAX][] požadavky využívající JSON|Vyhněte se přidávání velkého množství dat JSON Objectu, protože to způsobuje výkonnostní chyby při parsování|
-||Prozkoumejte použití [WebSockets][]|Zvažte použití WebSockets než používání [XMLHttpRequest][], protože HTTP request packet má 1,684 bytů overhead, s porovnáním s 8 bytovým WebSocket packetem|
-||Prozkoumejte použití service workera| Zvažte použití a service worker to cache critical assets on users machines instead of transferring them over the network
+||[AJAX][] požadavky využívající JSON|Vyhněte se přidávání velkého množství dat JSON Objectu, jelikož to způsobuje výkonnostní chyby při parsování|
+||Prozkoumejte použití [WebSockets][]|Zvažte použití WebSockets namísto [XMLHttpRequest][]; HTTP request packet má 1,684 bytů overhead, s porovnáním s 8 bytovým WebSocket packetem|
+||Prozkoumejte použití service workera| Zvažte použití service workera pro cachování kritických assetů na strojích uživatelů, namísto jejich posílání přes síť
 
 ## Automatizujte optimalizaci
 
