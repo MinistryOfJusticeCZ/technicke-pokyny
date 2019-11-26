@@ -44,7 +44,7 @@ V následujícím příkladu si představte, že se uživatel pokusil přidat po
 * **`aria-labelledby` a `aria-describedby`:** Tyto atributy přidružují text nadpisu/labelu dialogu a obsah k samotnému prvku okna. Spolu s rolí dialog jsou tyto informace oznámeny při otevření okna. Budete muset napsat nebo vygenerovat jedinečné identifikátory pro `id`, které jsou zde vyžadovány.
 * **`class="action-dialog__buttons"`:** Jednoduchý, nesémantický wrapper pro prvky akce. Prvky akce musí být označeny/napsány jako `<button>`, pokud podněcují něco na stejné stránce (například změna nastavení nebo stavu) nebo odkazy, pokud uživatele přivedou na novou stránku.
 * **`class="action-dialog__close"`:** Poskytuje tlačítko zavření, pokud se uživatel rozhodne _nic nedělat_ (v tomto příkladě se nerozhodl přihlásit). Třída visually hidden `vh`[^2] je uvedena pro poskytování přístupného, přeložitelného textu vedle nepřístupné ikonky (pro odečítačky obrazovek). Tlačítko Zavřít je deprioritizováno ve prospěch jmenovaných akcí a jeví se jako poslední ve zdrojovém a v pořadí focusu.
-* **`</body>`:** Okno musí být potomkem `<body>`, aby overlay/inert fungoval správně. Podívejte se na [Doporučené chování](#doporucene-chovani)
+* **`</body>`:** Okno musí být potomkem `<body>`, aby overlay/inert fungoval správně. Podívejte se na [Doporučené chování](#doporučené-chování)
 
 ## Doporučený layout
 
@@ -80,7 +80,7 @@ Na základě toho, okna se delším obsahem by byla v horní a dolní části vi
 }
 ```
 
-Ve chvíli, kdy je okno otevřeno, potomci dostávají atribut `inert` (více v [**doporučeném chování**](#doporucene-chovani) níže). Inert obsah by měl vypadat inertní, tedy měla by mu být ubrána viditelnost. Pro dosažení efektu použijte opacity a/nebo filtering.
+Ve chvíli, kdy je okno otevřeno, potomci dostávají atribut `inert` (více v [**doporučeném chování**](#doporučené-chování) níže). Inert obsah by měl vypadat inertní, tedy měla by mu být ubrána viditelnost. Pro dosažení efektu použijte opacity a/nebo filtering.
 
 ```css
 .action-dialog--open [inert] {
