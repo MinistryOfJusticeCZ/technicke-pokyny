@@ -23,7 +23,7 @@ Ve všech případech by měl ikonky doprovázet viditelný nebo vizuálně skry
 ```html
 <button>  
   <svg class="icon icon--text" focusable="false" aria-hidden="true">
-    <use xlink:href="assets/svg/icons-core-set.svg#icon-download"></use>
+    <use xlink:href="{{site.basedir}}static/images/icons-all.svg#icon-download"></use>
   </svg>
   <span>Smazat</span>
 </button>
@@ -56,7 +56,7 @@ V následující příkladě, prvek `class="tooltip"` poskytuje název (label).
 ```html
 <a href="link/to/download" download>
   <svg class="icon icon--text" focusable="false" aria-hidden="true">
-    <use xlink:href="assets/svg/icons-core-set.svg#icon-download"></use>
+    <use xlink:href="{{site.basedir}}static/images/icons-all.svg#icon-download"></use>
   </svg>
   <span class="tooltip">Stáhnout</span>
 </a>

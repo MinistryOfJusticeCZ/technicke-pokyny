@@ -59,7 +59,7 @@ Ikony by neměly obsahovat text ani být jinak přístupné asistivním technolo
 <a class="cta" href="path/to/help-page">
   <span class="button__label">Pomoc</span>
   <svg aria-hidden="true" focusable="false">
-    <use xlink:href="#help"></use>
+    <use xlink:href="{{site.basedir}}static/images/icons-all.svg#help"></use>
   </svg>
 </a>
 ```

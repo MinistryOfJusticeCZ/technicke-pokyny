@@ -31,7 +31,7 @@ V následujícím příkladu si představte, že se uživatel pokusil přidat po
     <button class="action-dialog__close">
       <span class="visually-hidden">zavřít</span>
       <svg class="icon icon--text" focusable="false" aria-hidden="true">
-        <use xlink:href="#icon-no"></use>
+        <use xlink:href="{{site.basedir}}static/images/icons-all.svg#icon-close"></use>
       </svg>
     </button>
   </div>
