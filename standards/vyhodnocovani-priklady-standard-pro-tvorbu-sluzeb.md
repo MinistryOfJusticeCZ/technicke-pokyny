@@ -2,7 +2,7 @@
 category: Standard pro tvorbu služeb
 expires: 2018-03-15
 ---
-# Vyhodnocování a příklady k Standardu pro tvorbu služeb
+# Vyhodnocování a příklady výstupů k Standardu pro tvorbu služeb
 
 Pracovní verze na [Standard na Google Sheets](https://docs.google.com/spreadsheets/d/1zOePDF3pe7ngJe-_ddr71HcPNxNX7F5ZnSA0iNzrR8c/edit?usp=sharing)
 
@@ -10,9 +10,9 @@ Pracovní verze na [Standard na Google Sheets](https://docs.google.com/spreadshe
 
 Na konci každé fáze ukážete vyhodnocujícímu týmu vaši práci. Tyto fáze jsou:
 
-1. Discovery – kde identifikujete problém, který budete řešit a kde děláte výzkum, abyste pochopili kdo používá, nebo bude používat, vaši služby a co od ní potřebují
-2. Alpha – kde vytváříte a testujete prototypy
-3. Beta – kde aplikujete, co jste se naučili v předchozích fázích a zdokonalíte vaši službu tak, že je připravena na ostrý provoz (Preflight a Spuštění)
+1. **Discovery** – kde identifikujete problém, který budete řešit a kde děláte výzkum, abyste pochopili kdo používá, nebo bude používat, vaši služby a co od ní potřebují
+2. **Alpha** – kde vytváříte a testujete prototypy
+3. **Beta** – kde aplikujete, co jste se naučili v předchozích fázích a zdokonalíte vaši službu tak, že je připravena na ostrý provoz (Preflight a Spuštění)
 
 Pokud váš projekt už běží, budeme s vámi spolupracovat na plánu, který vyřeší, jak splnit Standard pro tvorbu služeb.
 
@@ -44,11 +44,11 @@ Na konci vyhodnocování, dostanete zprávu s výsledkem, zda vaše služba spl�
 
 ### Discovery
 
-#### Výstupy
+#### Tvrdé metriky
 
 - [ ] Plán a popis výzkumu
 - [ ] Rozpis discovery sprintů
-- [ ] AS-IS a TO-BE mapy
+- [ ] AS-IS a TO-BE mapy služby
 - [ ] Excel s potřebami uživatelů/user stories/epiky (prioritizovaný)
 - [ ] Persony a/nebo profily uživatelů
 - [ ] Discovery report (prezentace)
@@ -56,7 +56,7 @@ Na konci vyhodnocování, dostanete zprávu s výsledkem, zda vaše služba spl�
 - [ ] Kód je otevřený a znovupoužitelný (existence Git repositáře)
 - [ ] Identifikace nejdůležitějších metrik (KPI a performance indikátory)
 
-#### Dodavatel ukázal a prokázal
+#### Měkké metriky
 
 - [ ] Znalost kdo jsou uživatelé a jaký problém za ně služba vyřeší
 - [ ] Reprezentativní vzorek uživatelů (i s těmi co využívají kompenzační pomůcky) 

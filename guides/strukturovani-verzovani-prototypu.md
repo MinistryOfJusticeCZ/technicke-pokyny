@@ -2,7 +2,7 @@
 category: Tvorba služby
 ---
 
-# Strukturování a verzování prototypů
+# Strukturování a verzování prototypů - NEPOUŽÍVAT
 
 pozn. prozkoumat možnosti glitch.com
 

@@ -111,7 +111,7 @@ Prvek pole v nevalidním stavu by měl mít `aria-invalid="true"`, a `aria-inval
 
 #### Chybová zpráva
 
-Chybové zprávy by měly být stručné ale popisné. Svému prvku pole jsou přiřazeny zpřístupněným popisem skrz `aria-describedby`. Tento prvek je naplněn příslušnou chybovou zprávou, když se pole stane nevalidním, a vyprázdní se, když je opraveno.
+Chybové zprávy by měly být stručné ale popisné. Svému prvku pole jsou přiřazeny zpřístupněným popisem skrz `aria-describedby`. Tento prvek je naplněn příslušnou chybovou zprávou, když se pole stane nevalidním, a vyprázdní se, když je opraveno. Pro to, aby byla změna stavu ohlášena uživatelům, obsahuje tento prvek `role=alert`.
 
 ```html
 <!-- neurčitý (počáteční) stav -->
